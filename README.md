@@ -8,6 +8,7 @@ Story has 2 options (I am not sure yet which one to choose):
 
 
 Implementation steps:
+
   **Step 1:** The Input Stuff. Figure out how to make a timer so the game knows if I’m just tapping (dot) or holding the button down (dash). I'll use some basic OOP here to make a "player" object that keeps track of its own timing and current dots/dashes.
 
   **Step 2:** Making it Readable. Set up a list or a table that turns the dot-dash patterns into actual letters. I'll make a "manager" object to handle the word I’m supposed to be typing and check if I’m getting the letters right or messing up.
